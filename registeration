@@ -1,0 +1,36 @@
+<!Doctype html>
+<html>
+  
+<head>
+  
+    <title>MSU Shuttle System</title> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body><br>
+  
+<div class="container">
+    <form action="" method="post">
+        <div class="text-center">
+            <img src="https://www.montclair.edu/university-communications/wp-content/uploads/sites/144/2022/01/msu-shield-center-red.svg" alt="MSU Logo">
+</div>
+
+<div class="form-group">
+      <div class="col-4 offset-xl-3 col-xl-6 text-center">
+          <h1 class="text-center">Register</h1>
+          <input type="text" class="form-control" placeholder="Username">
+          <br><input type="password" class="form-control" placeholder="Password">
+          <br><input type="text" class="form-control" placeholder="E-mail"></br>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="text-center">
+          <button type="btnRegister" class="btn btn-primary">Register</button>
+          
+          <input type="button" button id="btnBack" class="btn btn-success" value="Back" onclick="document.location.href = 'login.html'"/>
+        </div>
+      </div>
+    </form>
+</div>
+</body>
+</html>
